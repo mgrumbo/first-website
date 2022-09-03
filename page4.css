@@ -1,0 +1,31 @@
+.vis {
+    padding-top: 50px;
+    /* margin: 0; */
+}
+
+.vis h1 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.pics {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px;
+}
+
+.pics img {
+    height: auto;
+    max-width: 300px;
+    width: auto;
+    overflow: hidden;
+}
+
+.pics-1 img {
+    max-height: 400px;
+}
