@@ -1,0 +1,16 @@
+form {
+    padding-top: 70px;
+    grid-column-start: 2;
+    background-color: #a3b18a;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+body {
+    background-color: #a3b18a;
+}
+ * {
+    background-color: #a3b18a;
+ }
